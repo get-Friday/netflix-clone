@@ -9,6 +9,7 @@ body {
   margin: 0;
   background: var(--black);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
 a {

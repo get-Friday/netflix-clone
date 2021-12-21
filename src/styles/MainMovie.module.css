@@ -1,0 +1,17 @@
+.main {
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) 100%), url('../assets/images/arcane-cover.jpg');
+    background-size: cover;
+
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+}
