@@ -1,3 +1,41 @@
-.button {
+.container button {
+    cursor: pointer;
+
+    border-radius: 5px; 
+    border: none;
+
+    transition: .3s ease all;
+}
+
+.default {
+    color: red;
+    font-weight: 500;
+}
+
+.watch {
+    background-color: white;
+
+    padding: 10px 30px;
     
+    font-weight: 600;
+}
+
+.watch:hover {
+    background-color: black;
+    color: white;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, .5);
+
+    padding: 10px 30px;
+    margin-left: 10px;
+    
+    font-weight: 600;
+    color: white;
+}
+
+.info:hover {
+    background-color: white;
+    color: black;
 }
