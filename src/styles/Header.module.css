@@ -22,3 +22,20 @@
 .container nav a:hover {
     color: #FFF;
 }
+
+.icon {
+    font-size: 2.7rem;
+    margin-right: 7vw;
+}
+
+@media screen and (min-width:769px){
+    .icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container nav a {
+        display: none;
+    }
+}

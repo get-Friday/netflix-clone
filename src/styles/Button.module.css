@@ -39,3 +39,15 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width:786px) {
+    .watch,
+    .info {
+        width: 55vw;
+        height: 4.5vh;
+
+        margin-bottom: 5px;
+
+        font-size: 0.9rem;
+    }
+}

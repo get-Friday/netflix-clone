@@ -4,3 +4,9 @@
     
     margin: 0 0 0 var(--globalMargin);
 }
+
+@media screen and (max-width:736px) {
+    .title {
+        font-size: 30px;
+    }
+}

@@ -10,11 +10,11 @@ export default function Carousel() {
     <div>
         <h2 className={styles.title}>Recomendações</h2>
         <Swiper
-            slidesPerView={4}
+            slidesPerView={3}
             spaceBetween={15}
             breakpoints={{
                 768: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                     spaceBetween: 10
                 }
             }}

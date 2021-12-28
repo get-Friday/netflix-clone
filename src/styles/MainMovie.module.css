@@ -4,7 +4,7 @@
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) 100%), url('../assets/images/arcane-cover.jpg');
     background-size: cover;
 
-    height: 400px;
+    height: 40vh;
 
     display: flex;
     flex-direction: column;
@@ -35,4 +35,36 @@
 
 .icon {
     margin-right: 8px;
+}
+
+@media screen and (max-width:786px) {
+    .buttonscontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:787px) and (max-width:1599px) {
+    .main {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .main {
+        height: 75vh;
+    }
+
+    .description {
+        width: 35vw;
+    }
 }
