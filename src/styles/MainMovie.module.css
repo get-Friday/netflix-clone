@@ -12,6 +12,11 @@
 }
 
 .container {
+    margin-left: var(--globalMargin);
+    width: 55%;
+}
+
+.buttonscontainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

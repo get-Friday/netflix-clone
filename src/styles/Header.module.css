@@ -3,6 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+    margin-left: var(--globalMargin);
 }
 
 .logo {
