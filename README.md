@@ -16,7 +16,7 @@ Esse projeto foi feito em um Bootcamp na Digital Inovation One, originalmente o 
 
 3. Ligar o servidor
 
-    <code> npx next build </code>
+    <code> npx next build </code><br>
     <code> npx next start </code>
 
 O servidor ligará por padrão em http://localhost:3000
